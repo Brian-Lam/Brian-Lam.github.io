@@ -1,8 +1,1 @@
-.pane {
-	background-color: #222222;
-}
-.name-big {
-	text-align: center;
-	margin-top:40%;
-	color:white;
-}
+body{margin:0}.pane{background-color:#222;width:100%;height:800px}.name-big{position:relative;text-align:center;top:40%;color:#fff;margin-top:0;font-size:5em}
