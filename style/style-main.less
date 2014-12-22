@@ -8,17 +8,34 @@ body{
 .pane {
 	background-color: #222222;
 	width:100%;
-	height:800px;
 	font-family: Cafe_Brewery;
 	display: inline-block;
 	background-size: cover;
 	line-height: 1.3;
+	@media @mobile {
+		height: auto;
+		padding-bottom: 50px;
+	}
+	@media @desktop {
+		height:800px;
+		padding: auto;
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
 }
 .pane-title {
 	padding-top:10px;
-	font-size:5em;
 	color: #DDD;
 	text-align: center;
+	@media @mobile {
+		font-size: 2em;
+	}
+	@media @tablet {
+		font-size: 3.5em;
+	}
+	@media @desktop {
+		font-size: 5em;
+	}
 }
 
 /*****************
@@ -26,17 +43,19 @@ Top Pane
 *****************/
 .subname {
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 .name-big {
 	position: relative;
 	text-align: center;
-	margin-top:15%;
 	color:#222;
-	font-size: 7em;
-	@media-smartphones {
+	@media @mobile {
 		font-size: 2em;
 		margin: 10px;
+	}
+	@media @tablet {
+		font-size: 7em;
+		margin-top:15%;
 	}
 }
 #main-pane {
@@ -52,25 +71,44 @@ About Pane
 		color: black;
 	}
 	.face-picture {
-	height: 250px;
-	border-radius: 125px;
-	margin-left:13%;
-	margin-top:50px;
-	display: inline-block;
+		height: 250px;
+		border-radius: 125px;
+
+		@media @mobile {
+			margin: auto;
+			text-align: center;
+			display: block;
+		}
+
+		@media @desktop {
+			margin-left:13%;
+			margin-top:50px;
+			display: inline-block;
+		}
 	}
 	.about-text {
 		font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;;
-		width: 40%;
 		display: inline-block;
 		vertical-align: top;
 		color: white;
 		background: rgba(.8, .8, .8, .85);
-		margin-left:150px;
-		margin-top:50px;
-		padding: 30px;
 		border-radius:20px;
 		line-height: 1.4;
 		font-size:1.1em;
+		@media @mobile {
+			width: 90%;
+			margin: auto;
+			margin-top: 10px;
+			padding: 10px;
+			display: block;
+		}
+		@media @desktop {
+			padding: 30px;
+			width: 40%;
+			margin-left:150px;
+			margin-top:50px;
+			display: inline-block;
+		}
 	}
 }
 .block-wrapper{
@@ -83,17 +121,27 @@ Experience Pane
 ****************/
 #experience-pane {
 	background-image: url("bg/dormroom.jpg");
+	height: auto;
+
 	.experience-block {
 		vertical-align: top;
 		font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
 		padding: 30px;
-		margin: 0px 5%;
 		background-color:#DDD;
-		width: 34%;
-		height:450px;
+		height:auto;
 		border-radius:50px;
-		display: inline-block;
 		line-height:1.2;
+		@media @mobile {
+			width: 80%;
+			margin: auto;
+			margin-top: 10px;
+			display: block;
+		}
+		@media @desktop {
+			width: 34%;
+			margin: 0px 5%;
+			display: inline-block;
+		}
 	}
 }
 
@@ -115,6 +163,11 @@ Projects Pane
 		margin-right: auto;
 		padding: 40px;
 		border-radius: 20px;
+
+		@media @mobile {
+			padding: 30px;
+		}
+
 		a {
 			color: #00BB00;
 		}
@@ -128,13 +181,22 @@ Contact Pane
 	background-image: url("bg/ssseaport.jpg");
 	.cntct-info{
 		text-align: center;
-		font-size: 2.5em;
 		color: white;
 		a {
 			color: white;
 		}
 		a:hover {
 			color: #0F0;
+		}
+
+		@media @mobile {
+			font-size: 1.3em;
+		}
+		@media @tablet {
+			height: 200px;
+		}
+		@media @desktop {
+			font-size: 2.5em;
 		}
 	}
 }
