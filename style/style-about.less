@@ -1,0 +1,54 @@
+@import "pane.less";
+@import "responsive.less";
+@import "font.less"; 
+@import "navbar.less";
+
+#about-pane {
+	background-image: url("bg/nyc.jpg");
+	h1{
+		color: black;
+	}
+	.face-picture {
+		height: 250px;
+		border-radius: 125px;
+
+		@media @mobile {
+			margin: auto;
+			text-align: center;
+			display: block;
+		}
+
+		@media @desktop {
+			margin-left:13%;
+			margin-top:50px;
+			display: inline-block;
+		}
+	}
+	.about-text {
+		font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;;
+		display: inline-block;
+		vertical-align: top;
+		color: white;
+		background: rgba(.8, .8, .8, .85);
+		border-radius:20px;
+		line-height: 1.4;
+		font-size:1.1em;
+		@media @mobile {
+			width: 80%;
+			margin: auto;
+			margin-top: 10px;
+			padding: 30px;
+			display: block;
+		}
+		@media @desktop {
+			padding: 30px;
+			width: 40%;
+			margin-left:150px;
+			margin-top:50px;
+			display: inline-block;
+		}
+	}
+}
+.block-wrapper{
+	width:100%;
+}
