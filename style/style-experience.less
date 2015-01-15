@@ -1,0 +1,35 @@
+@import "pane.less";
+@import "responsive.less";
+@import "font.less"; 
+@import "navbar.less";
+@import "pane-full.less";
+
+html, body {
+	height: 100%;
+}
+
+#experience-pane {
+	background-image: url("bg/dormroom.jpg");
+	height: auto;
+
+	.experience-block {
+		vertical-align: top;
+		font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+		padding: 30px;
+		background-color:#DDD;
+		height:auto;
+		border-radius:50px;
+		line-height:1.2;
+		@media @mobile {
+			width: 80%;
+			margin: auto;
+			margin-top: 10px;
+			display: block;
+		}
+		@media @desktop {
+			width: 34%;
+			margin: 0px 5%;
+			display: inline-block;
+		}
+	}
+}
