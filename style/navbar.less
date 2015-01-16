@@ -88,6 +88,10 @@ Mobile Menu
 
 .navigation-menu-mobile {
 	display: none;
+
+	@media @tablet {
+		display: none!important; /* Override the menu being stuck in the view if window resized */
+	}
 }
 
 .navigation-button-mobile:hover{
