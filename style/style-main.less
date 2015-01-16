@@ -25,6 +25,12 @@ Top Pane
 }
 #main-pane {
 	background-image: url("bg/mainpane.jpg");
+	@media @mobile{
+		padding-top:50px;
+	}
+	@media @tablet{
+		padding-top:10px;
+	}
 }
 
 /******************
@@ -65,10 +71,11 @@ About Pane
 			margin: auto;
 			margin-top: 10px;
 			padding: 30px;
+			padding-bottom:40px;
+
 			display: block;
 		}
 		@media @desktop {
-			padding: 30px;
 			width: 40%;
 			margin-left:150px;
 			margin-top:50px;
@@ -101,6 +108,8 @@ Experience Pane
 			margin: auto;
 			margin-top: 10px;
 			display: block;
+		padding-bottom:40px;
+
 		}
 		@media @desktop {
 			width: 34%;

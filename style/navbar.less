@@ -57,6 +57,9 @@
 	}
 }
 
+/********************
+Mobile Menu
+*********************/
 .navigation-button-mobile {
 	@media @tablet {
 		display:none;
@@ -83,6 +86,10 @@
 	}
 }
 
+.navigation-menu-mobile {
+	display: none;
+}
+
 .navigation-button-mobile:hover{
 	cursor: pointer;
 }
@@ -91,3 +98,26 @@
 	height:15px;
 	margin-right:5px;
 }
+
+.mobile-menu-option{
+	width: 80%;
+	display: block;
+	margin: auto;
+	padding: 15px;
+	z-index: 100;
+	background-color: #222;
+	text-align: center;
+
+	a {
+		color: white;
+		text-decoration: none;
+		-moz-transition: all .1s ease-in;
+	    -o-transition: all .1s ease-in;
+	    -webkit-transition: all .1s ease-in;
+	    transition: all .1s ease-in;
+		&:hover {
+			color: #BBB;
+		}
+	}
+}
+
