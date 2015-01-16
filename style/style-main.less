@@ -150,12 +150,28 @@ Projects Pane
 Contact Pane
 ***************/
 #contact-pane {
-	background-image: url("bg/ssseaport.jpg");
+	background-image: url("bg/working.jpg");
+	text-shadow: 2px 2px 7px rgba(255, 255, 255, 1);
+
+	h1 {
+		color: black;
+	}
+
+	@media @mobile {
+		height: 300px;
+	}
+
+	@media @tablet {
+		height: 500px;
+	}
 	.cntct-info {
+		text-shadow: 2px 2px 7px rgba(0, 0, 0, 1);
+
 		text-align: center;
-		color: white;
+		color: black;
 		a {
-			color: white;
+			color: black;
+			font-weight: bold;
 			-moz-transition: all .2s ease-in;
 		    -o-transition: all .2s ease-in;
 		    -webkit-transition: all .2s ease-in;
@@ -168,17 +184,16 @@ Contact Pane
 		@media @mobile {
 			font-size: 1.7em;
 		}
-		@media @tablet {
-			height: 250px;
-		}
-		@media @desktop {
-			font-size: 2.5em;
-		}
-	}
 
+		@media @tablet {
+			font-size: 2.1em;
+		}
+
+	}
+/*
 	@media only screen and (max-width : 1400px) {
 		background-image: url("bg/ssseaport-small.jpg");
-	}
+	}*/
 }
 
 /******************************

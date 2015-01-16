@@ -1,0 +1,50 @@
+@import "pane.less";
+@import "responsive.less";
+@import "font.less"; 
+@import "navbar.less";
+@import "pane-full.less";
+
+#contact-pane {
+	background-image: url("bg/cafe.jpg");
+    background-repeat:repeat-x;
+    background-attachment:fixed;
+    background-position: left top;
+	text-shadow: 2px 2px 7px rgba(255, 255, 255, 1);
+
+	h1 {
+		color: white;
+	}
+	
+	@media only screen and (max-width : 1400px) {
+		background-image: url("bg/ssseaport-small.jpg");
+	}
+
+	.cntct-info {
+		text-shadow: 2px 2px 7px rgba(0, 0, 0, 1);
+		text-align: center;
+		color: white;
+
+		a {
+			color: white;
+			text-shadow: 2px 2px 7px rgba(0, 0, 0, 1);
+			font-weight: bold;
+			-moz-transition: all .2s ease-in;
+		    -o-transition: all .2s ease-in;
+		    -webkit-transition: all .2s ease-in;
+		    transition: all .2s ease-in;
+		}
+
+		a:hover {
+			color: #0F0;
+		}
+
+		@media @mobile {
+			font-size: 1.7em;
+		}
+
+		@media @tablet {
+			font-size: 2.1em;
+		}
+
+	}
+}
