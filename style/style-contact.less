@@ -4,8 +4,11 @@
 @import "navbar.less";
 @import "pane-full.less";
 
+body{
+	background-color: black;
+}
 #contact-pane {
-	background-image: url("bg/cafe.jpg");
+	background-image: url("bg/ssseaport.jpg");
     background-repeat:repeat-x;
     background-attachment:fixed;
     background-position: left top;
@@ -13,8 +16,11 @@
 
 	h1 {
 		color: white;
+		@media @mobile {
+			margin-top:50px;
+		}
 	}
-	
+
 	@media only screen and (max-width : 1400px) {
 		background-image: url("bg/ssseaport-small.jpg");
 	}
@@ -23,6 +29,10 @@
 		text-shadow: 2px 2px 7px rgba(0, 0, 0, 1);
 		text-align: center;
 		color: white;
+		background: rgba(0, 0, 0, .85);
+		padding: 20px;
+		width: auto;
+
 
 		a {
 			color: white;

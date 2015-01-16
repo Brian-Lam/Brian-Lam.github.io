@@ -29,6 +29,13 @@
 }
 
 .navigation-button {
+	@media @mobile {
+		display: none;
+	}
+	@media @tablet {
+		display: inline-block;
+	}
+
 	height: 100%;
 	width: 19%;
 	line-height: 50px;
@@ -48,4 +55,39 @@
 			color: #BBB;
 		}
 	}
+}
+
+.navigation-button-mobile {
+	@media @tablet {
+		display:none;
+	}
+	height: 100%;
+	width: 50%;
+	line-height: 50px;
+	display: block;
+	margin: auto;
+	color: white;
+	vertical-align: middle;
+	text-align: center;
+
+	a {
+		color: white;
+		text-decoration: none;
+		-moz-transition: all .1s ease-in;
+	    -o-transition: all .1s ease-in;
+	    -webkit-transition: all .1s ease-in;
+	    transition: all .1s ease-in;
+		&:hover {
+			color: #BBB;
+		}
+	}
+}
+
+.navigation-button-mobile:hover{
+	cursor: pointer;
+}
+
+.menu-image{
+	height:15px;
+	margin-right:5px;
 }
