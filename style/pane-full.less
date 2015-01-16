@@ -1,0 +1,14 @@
+html, body {
+	height: 100%;
+}
+
+.pane.full {
+	padding: 0px;
+	@media @mobile {
+		height: auto;
+	}
+	@media @tablet {
+		min-height: 100%;
+		padding: auto;
+	}
+}

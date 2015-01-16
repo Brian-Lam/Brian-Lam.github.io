@@ -1,0 +1,55 @@
+@import "pane.less";
+@import "responsive.less";
+@import "font.less"; 
+@import "navbar.less";
+@import "pane-full.less";
+
+#projects-pane{
+	background-image: url("bg/arduino.jpg");
+    background-repeat:repeat-x;
+    background-attachment:fixed;
+    background-position: left top;
+
+	h1{
+		color: black;
+		margin-bottom: 10px;
+	}
+	
+	.projects-text {
+		font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+		width: 80%;
+		background: rgba(.8, .8, .8, .85);
+		color: #DDD;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 20px;
+
+		@media @mobile {
+			padding: 30px;
+			padding-bottom: 48px;
+		}
+
+		a {
+			color: #00BB00;
+			-moz-transition: all .2s ease-in;
+		    -o-transition: all .2s ease-in;
+		    -webkit-transition: all .2s ease-in;
+		    transition: all .2s ease-in;
+		}
+		a:hover {
+			color: white;
+		}
+	}
+}
+
+.less-info:hover {
+	text-decoration: underline;
+	color: #BBB;
+	cursor: pointer;
+}
+
+.more-info {
+	padding-left:20px;
+	border-left: 2px gray solid;
+	display: none;
+}
