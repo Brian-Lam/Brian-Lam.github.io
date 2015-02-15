@@ -166,8 +166,8 @@ Projects Pane
 		}
 
 		a {
-			color: #00BB00;
-			margin-top: 4px;
+			color: #0B0;
+			margin-top: -7px;
 			-moz-transition: all .2s ease-in;
 		    -o-transition: all .2s ease-in;
 		    -webkit-transition: all .2s ease-in;
@@ -211,10 +211,10 @@ Contact Pane
 		a {
 			color: black;
 			font-weight: bold;
-			-moz-transition: all .2s ease-in;
-		    -o-transition: all .2s ease-in;
-		    -webkit-transition: all .2s ease-in;
-		    transition: all .2s ease-in;
+			-moz-transition: all .15s ease-in;
+		    -o-transition: all .15s ease-in;
+		    -webkit-transition: all .15s ease-in;
+		    transition: all .15s ease-in;
 		}
 		a:hover {
 			color: #0F0;
@@ -243,8 +243,8 @@ Read More Buttons
 	color: black;
 	float: right;
 	font-weight: bold;
-	opacity: .6;
-	padding: 10px;
+	opacity: .45;
+	padding: 5px;
 	text-decoration: none;
 
 	-webkit-transition: opacity .3s ease-in-out;
@@ -258,6 +258,27 @@ Read More Buttons
 	}
 }
 
+.lightbutton {
+	border-top: 1px white solid;
+	border-radius: 9px;
+	transition: border-radius 0.1s ease;
+	border-bottom: 1px white solid;
+}
+
+.lightbutton:hover {
+	border-radius:14px;
+}
+
+.darkbutton {
+	border-top: 1px #222 solid;
+	border-radius: 9px;
+	transition: border-radius 0.1s ease;
+	border-bottom: 1px #222 solid;
+}
+
+.darkbutton:hover {
+	border-radius:14px;
+}
 .readmoretext-light {
 	font-size:.9em;
 	color: white;
