@@ -1,0 +1,29 @@
+@font-face {
+  font-family: CafeBrewery;
+  src: url("fonts/cafe_brewery.ttf");
+}
+html {
+  background-image: url("assets/overpass.jpg");
+  background-size: cover;
+}
+
+#name-block {
+  text-align: center;
+  font-size: 2.5em;
+  left: 350px;
+  top: 200px;
+  position: relative;
+  font-family: CafeBrewery;
+}
+@media all and (max-width: 320px) {
+  #name-block {
+    width: 100%;
+  }
+}
+@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+  #name-block {
+    width: 530px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
