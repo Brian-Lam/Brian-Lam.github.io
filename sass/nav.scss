@@ -1,10 +1,18 @@
 @import "fonts";
+@import "responsive";
 
-nav {
-	text-align: right;
-	font-size: 1.5em;
+#desktop-nav {
+	@media #{$phone} {
+		display: none;
+	}
+	@media #{$desktop} {
+		display: block;
+	}
+	text-align: left;
+	font-size: 1.8em;
 	font-family: CafeBrewery;
-	margin-top: 20px;
+	margin-top: 40px;
+	margin-left: 20px;
 	.nav-link {
 		padding: 30px;
 		color: black;
@@ -13,5 +21,46 @@ nav {
 	}
 	.nav-link:hover {
 		text-decoration: underline;
+	}
+}
+#mobile-nav {
+	position: relative;
+	@media #{$phone} {
+		display: block;
+	}
+	@media #{$desktop} {
+		display: none;
+	}
+}
+.mobile-menu-click {
+	@media #{$phone} {
+		display: block;
+	}
+	@media #{$desktop} {
+		display: none;
+	}
+	font-family: CafeBrewery;
+	cursor: pointer;
+	display: block;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 2em;
+	text-decoration: none;
+	font-weight: bold;
+}
+.mobile-nav-link {
+	font-family: CafeBrewery;
+	width: 80%;
+	margin: auto;
+	display: none;
+	text-align: center;
+	padding: 20px;
+	font-size: 2em;
+	a {
+		color: black;
+		text-decoration: none;
+		font-weight: bold;
 	}
 }

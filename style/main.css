@@ -7,6 +7,10 @@ html {
   background-size: cover;
 }
 
+body {
+  margin: 0;
+}
+
 #name-block {
   text-align: center;
   font-size: 2.5em;
@@ -16,15 +20,14 @@ html {
 @media only screen and (min-width: 300px) {
   #name-block {
     left: 0px;
-    top: 0px;
+    top: 100px;
     width: 100%;
   }
 }
 @media only screen and (min-width: 1200px) {
   #name-block {
-    left: 350px;
     top: 200px;
-    width: 530px;
+    width: 1015px;
   }
 }
 

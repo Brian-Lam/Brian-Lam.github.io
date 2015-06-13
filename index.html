@@ -4,14 +4,26 @@
 		<title>Brian Lam</title>
 		 <link rel="stylesheet" type="text/css" href="style/nav.css">
 		 <link rel="stylesheet" type="text/css" href="style/main.css">
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		 <script src="scripts/nav-bar.js"></script> 
 	</head>
 	<body>
-		<nav>
-			<a class="nav-link" href="about.html">Experience</a>
-			<a class="nav-link" href="about.html">Projects</a>
-			<a class="nav-link" href="about.html">Photography</a>
-			<a class="nav-link" href="about.html">About Me</a>
+		<nav id="desktop-nav">
+			<a class="nav-link" href="about.html">Experience</a><span class="divider">&#124;</span>
+			<a class="nav-link" href="about.html">Projects</a><span class="divider">&#124;</span>
+			<a class="nav-link" href="about.html">Photography</a><span class="divider">&#124;</span>
+			<a class="nav-link" href="about.html">About Me</a><span class="divider">&#124;</span>
 			<a class="nav-link" href="about.html">Contact</a>
+		</nav>
+		<div class="mobile-menu-click">
+			Menu
+		</div>
+		<nav id="mobile-nav">
+			<div class="mobile-nav-link"><a class="nav-link" href="about.html">Experience</a></div>
+			<div class="mobile-nav-link"><a class="nav-link" href="about.html">Projects</a></div>
+			<div class="mobile-nav-link"><a class="nav-link" href="about.html">Photography</a></div>
+			<div class="mobile-nav-link"><a class="nav-link" href="about.html">About Me</a></div>
+			<div class="mobile-nav-link"><a class="nav-link" href="about.html">Contact</a></div>
 		</nav>
 		<div id="name-block">
 			<h1>Brian Lam</h1>
