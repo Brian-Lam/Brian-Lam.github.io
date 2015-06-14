@@ -3,7 +3,7 @@
   src: url("fonts/cafe_brewery.ttf");
 }
 html {
-  background: url("assets/overpass.jpg") no-repeat center center fixed;
+  background: url("assets/3dprint.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -44,7 +44,7 @@ h4 {
 }
 @media only screen and (min-width: 300px) {
   .experience-subsection {
-    width: 90%;
+    width: 98%;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -54,6 +54,7 @@ h4 {
 }
 
 .experience-block {
+  font-family: Arial;
   padding: 10px;
   padding-top: 4px;
   padding-left: 15px;
