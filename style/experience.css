@@ -15,14 +15,27 @@ h1 {
   margin-top: 50px;
   margin-bottom: 20px;
   text-align: center;
+  font-family: CafeBrewery;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 15px;
+  margin-bottom: 3px;
+}
+
+h4 {
+  margin: 3px;
 }
 
 #experience-wrapper {
   width: 80%;
   display: block;
   margin: auto;
-  background-color: white;
-  border: 1px black solid;
+  background: rgba(255, 255, 255, 0.4);
   border-radius: 20px;
 }
 
@@ -41,7 +54,61 @@ h1 {
 }
 
 .experience-block {
-  padding: 20px;
+  padding: 10px;
+  padding-top: 4px;
+  padding-left: 15px;
+  margin: 5%;
+  transition: background 0.15s ease;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.blue {
+  background: rgba(25, 25, 255, 0.06);
+}
+
+.blue:hover {
+  background: rgba(25, 25, 255, 0.3);
+}
+
+.green {
+  background: rgba(25, 255, 25, 0.06);
+}
+
+.green:hover {
+  background: rgba(25, 255, 25, 0.3);
+}
+
+.red {
+  background: rgba(255, 25, 25, 0.06);
+}
+
+.red:hover {
+  background: rgba(255, 25, 25, 0.3);
+}
+
+.yellow {
+  background: rgba(255, 255, 25, 0.06);
+}
+
+.yellow:hover {
+  background: rgba(255, 255, 25, 0.3);
+}
+
+.purple {
+  background: rgba(255, 25, 255, 0.06);
+}
+
+.purple:hover {
+  background: rgba(255, 25, 255, 0.3);
+}
+
+.cyan {
+  background: rgba(25, 255, 255, 0.06);
+}
+
+.cyan:hover {
+  background: rgba(25, 255, 255, 0.3);
 }
 
 /*# sourceMappingURL=experience.css.map */
