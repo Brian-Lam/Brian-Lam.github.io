@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-  margin-top: 50px;
+  padding-top: 50px;
   margin-bottom: 20px;
   text-align: center;
   font-family: CafeBrewery;
@@ -35,11 +35,14 @@ h4 {
   width: 80%;
   display: block;
   margin: auto;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 20px;
 }
 
 .experience-subsection {
+  font-family: Arial;
+  font-size: 1.2em;
+  vertical-align: top;
   display: inline-block;
 }
 @media only screen and (min-width: 300px) {
@@ -54,7 +57,6 @@ h4 {
 }
 
 .experience-block {
-  font-family: Arial;
   padding: 10px;
   padding-top: 4px;
   padding-left: 15px;
@@ -65,7 +67,7 @@ h4 {
 }
 
 .blue {
-  background: rgba(25, 25, 255, 0.06);
+  background: rgba(25, 25, 255, 0.1);
 }
 
 .blue:hover {
@@ -73,7 +75,7 @@ h4 {
 }
 
 .green {
-  background: rgba(25, 255, 25, 0.06);
+  background: rgba(25, 255, 25, 0.1);
 }
 
 .green:hover {
@@ -81,7 +83,7 @@ h4 {
 }
 
 .red {
-  background: rgba(255, 25, 25, 0.06);
+  background: rgba(255, 25, 25, 0.1);
 }
 
 .red:hover {
@@ -89,7 +91,7 @@ h4 {
 }
 
 .yellow {
-  background: rgba(255, 255, 25, 0.06);
+  background: rgba(255, 255, 25, 0.1);
 }
 
 .yellow:hover {
@@ -97,7 +99,7 @@ h4 {
 }
 
 .purple {
-  background: rgba(255, 25, 255, 0.06);
+  background: rgba(255, 25, 255, 0.1);
 }
 
 .purple:hover {
@@ -105,11 +107,17 @@ h4 {
 }
 
 .cyan {
-  background: rgba(25, 255, 255, 0.06);
+  background: rgba(25, 255, 255, 0.1);
 }
 
 .cyan:hover {
   background: rgba(25, 255, 255, 0.3);
+}
+
+.skills-subsection {
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 /*# sourceMappingURL=experience.css.map */
