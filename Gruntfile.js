@@ -29,9 +29,12 @@ module.exports = function(grunt) {
         mangle: false
       },
       my_target: {
-        files: {
-          'dest/output.min.js': ['src/input.js']
-        }
+        files: [{
+          expand: true,
+          cwd: 'scripts-build',
+          src: '*.js',
+          dest: 'scripts'
+        }]
       }
   }
   });

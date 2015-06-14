@@ -1,0 +1,47 @@
+@font-face {
+  font-family: CafeBrewery;
+  src: url("fonts/cafe_brewery.ttf");
+}
+html {
+  background: url("assets/overpass.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#experience-wrapper {
+  width: 80%;
+  display: block;
+  margin: auto;
+  background-color: white;
+  border: 1px black solid;
+  border-radius: 20px;
+}
+
+.experience-subsection {
+  display: inline-block;
+}
+@media only screen and (min-width: 300px) {
+  .experience-subsection {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .experience-subsection {
+    width: 45%;
+  }
+}
+
+.experience-block {
+  padding: 20px;
+}
+
+/*# sourceMappingURL=experience.css.map */

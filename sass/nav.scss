@@ -15,21 +15,28 @@
 	margin-left: 20px;
 	.nav-link {
 		padding: 30px;
-		color: black;
+		color: #444;
 		text-decoration: none;
 		font-weight: bold;
 	}
+	.nav-link .active-link {
+		color: #000;
+	}
 	.nav-link:hover {
 		text-decoration: underline;
+		color: #000;
 	}
 }
 #mobile-nav {
-	position: relative;
-	@media #{$phone} {
-		display: block;
-	}
+	top: 79px;
+	display: none;
+	position: absolute;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 5;
 	@media #{$desktop} {
-		display: none;
+		display: none !IMPORTANT;
 	}
 }
 .mobile-menu-click {
@@ -37,12 +44,12 @@
 		display: block;
 	}
 	@media #{$desktop} {
-		display: none;
+		display: none; 
 	}
 	font-family: CafeBrewery;
 	cursor: pointer;
 	display: block;
-	background-color: black;
+	background-color: #444;
 	color: white;
 	text-align: center;
 	padding: 20px;
@@ -50,17 +57,28 @@
 	text-decoration: none;
 	font-weight: bold;
 }
+.mobile-menu-click:hover {
+	background-color: #222;
+}
 .mobile-nav-link {
 	font-family: CafeBrewery;
 	width: 80%;
 	margin: auto;
-	display: none;
+	visibility: none;
 	text-align: center;
 	padding: 20px;
 	font-size: 2em;
+	background-color: black;
+	z-index: 5;
 	a {
-		color: black;
+		z-index: 5;
+		color: white;
 		text-decoration: none;
 		font-weight: bold;
 	}
+}
+.menu-image {
+	height: 30px;
+	margin-bottom: -4px;
+	margin-right: 15px;
 }

@@ -30,5 +30,8 @@ body {
     width: 1015px;
   }
 }
+#name-block h1 {
+  margin: 30px;
+}
 
 /*# sourceMappingURL=main.css.map */
