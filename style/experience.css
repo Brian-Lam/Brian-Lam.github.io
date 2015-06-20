@@ -120,4 +120,8 @@ h4 {
   background: rgba(255, 255, 255, 0.6);
 }
 
+.experience-description {
+  display: none;
+}
+
 /*# sourceMappingURL=experience.css.map */

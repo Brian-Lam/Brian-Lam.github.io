@@ -16,7 +16,7 @@
 }
 
 .project-block {
-	padding: 20px;
+	padding: 1%;
 	display: inline-block;
 	h4 {
 		margin-top: 2px;
@@ -24,9 +24,10 @@
 	}
 	@media #{$phone} {
 		width: 98%;
+		margin: 10px 1%;
 	}
 	@media #{$tablet} {
-		width: 48%
+		width: 44%
 	}
 	@media #{$desktop} {
 		width: 28%;

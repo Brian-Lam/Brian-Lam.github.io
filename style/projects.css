@@ -60,7 +60,7 @@
 }
 
 .project-block {
-  padding: 20px;
+  padding: 1%;
   display: inline-block;
 }
 .project-block h4 {
@@ -70,11 +70,12 @@
 @media only screen and (min-width: 300px) {
   .project-block {
     width: 98%;
+    margin: 10px 1%;
   }
 }
 @media only screen and (min-width: 800px) {
   .project-block {
-    width: 48%;
+    width: 44%;
   }
 }
 @media only screen and (min-width: 1200px) {
