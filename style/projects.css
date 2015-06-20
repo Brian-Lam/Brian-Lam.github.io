@@ -46,8 +46,17 @@
   background: rgba(25, 255, 255, 0.3);
 }
 
+html {
+  background: url("assets/arduino.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+}
+
 .projects-wrapper {
-  background: rgba(30, 30, 30, 0.2);
+  background: rgba(255, 255, 255, 0.85);
   padding: 40px;
   padding-top: 10px;
   margin-top: 40px;

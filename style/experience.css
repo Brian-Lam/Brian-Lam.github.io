@@ -122,6 +122,8 @@ h4 {
 
 .experience-description {
   display: none;
+  margin-left: 15px;
+  padding-left: 15px;
 }
 
 /*# sourceMappingURL=experience.css.map */
