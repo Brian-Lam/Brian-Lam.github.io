@@ -1,0 +1,40 @@
+$low-opacity: .1;
+$high-opacity: .3;
+$low-color: 25;
+
+.blue {
+	background: rgba($low-color, $low-color, 255, $low-opacity);
+}
+.blue:hover {
+	background: rgba($low-color, $low-color, 255, $high-opacity)
+}
+.green {
+	background: rgba($low-color, 255, $low-color, $low-opacity);
+}
+.green:hover {
+	background: rgba($low-color, 255, $low-color, $high-opacity);
+}
+.red {
+	background: rgba(255, $low-color, $low-color, $low-opacity);
+}
+.red:hover {
+	background: rgba(255, $low-color, $low-color, $high-opacity);
+}
+.yellow {
+	background: rgba(255, 255, $low-color, $low-opacity);
+}
+.yellow:hover {
+	background: rgba(255, 255, $low-color, $high-opacity);
+}
+.purple {
+	background: rgba(255, $low-color, 255, $low-opacity);
+}
+.purple:hover {
+	background: rgba(255, $low-color, 255, $high-opacity);
+}
+.cyan {
+	background: rgba($low-color, 255, 255, $low-opacity);
+}
+.cyan:hover {
+	background: rgba($low-color, 255, 255, $high-opacity);
+}

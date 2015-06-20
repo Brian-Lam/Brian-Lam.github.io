@@ -2,70 +2,6 @@
   font-family: CafeBrewery;
   src: url("fonts/cafe_brewery.ttf");
 }
-html {
-  background: url("assets/3dprint.jpg") no-repeat center center fixed;
-  background-size: cover;
-}
-
-body {
-  margin: 0;
-}
-
-h1 {
-  padding-top: 50px;
-  margin-bottom: 20px;
-  text-align: center;
-  font-family: CafeBrewery;
-}
-
-h2 {
-  text-align: center;
-}
-
-h3 {
-  margin-top: 15px;
-  margin-bottom: 3px;
-}
-
-h4 {
-  margin: 3px;
-}
-
-#experience-wrapper {
-  width: 80%;
-  display: block;
-  margin: auto;
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 20px;
-}
-
-.experience-subsection {
-  font-family: Arial;
-  font-size: 1.2em;
-  vertical-align: top;
-  display: inline-block;
-}
-@media only screen and (min-width: 300px) {
-  .experience-subsection {
-    width: 98%;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .experience-subsection {
-    width: 45%;
-  }
-}
-
-.experience-block {
-  padding: 10px;
-  padding-top: 4px;
-  padding-left: 15px;
-  margin: 5%;
-  transition: background 0.15s ease;
-  border-radius: 20px;
-  cursor: pointer;
-}
-
 .blue {
   background: rgba(25, 25, 255, 0.1);
 }
@@ -112,6 +48,70 @@ h4 {
 
 .cyan:hover {
   background: rgba(25, 255, 255, 0.3);
+}
+
+html {
+  background: url("assets/3dprint.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  padding-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: CafeBrewery;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 15px;
+  margin-bottom: 3px;
+}
+
+h4 {
+  margin: 3px;
+}
+
+#experience-wrapper {
+  width: 80%;
+  display: block;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+}
+
+.experience-subsection {
+  font-family: Arial;
+  font-size: 1.2em;
+  vertical-align: top;
+  display: inline-block;
+}
+@media only screen and (min-width: 300px) {
+  .experience-subsection {
+    width: 98%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .experience-subsection {
+    width: 45%;
+  }
+}
+
+.experience-block {
+  padding: 10px;
+  padding-top: 4px;
+  padding-left: 15px;
+  margin: 5%;
+  transition: background 0.15s ease;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .skills-subsection {

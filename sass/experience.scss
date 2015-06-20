@@ -1,5 +1,6 @@
 @import "fonts";
 @import "responsive";
+@import "hovercolors";
 
 html {
 	background: url("assets/3dprint.jpg")  no-repeat center center fixed; 
@@ -28,8 +29,8 @@ h4 {
 	width: 80%;
 	display: block;
 	margin: auto;
-	background: rgba(255, 255, 255, .7);
-	border-radius: 20px;
+	background: rgba(255, 255, 255, .85);
+	border-radius: 10px;
 }
 .experience-subsection {
 	font-family: Arial;
@@ -53,46 +54,6 @@ h4 {
 	cursor: pointer;
 }
 
-$low-opacity: .1;
-$high-opacity: .3;
-$low-color: 25;
-
-.blue {
-	background: rgba($low-color, $low-color, 255, $low-opacity);
-}
-.blue:hover {
-	background: rgba($low-color, $low-color, 255, $high-opacity)
-}
-.green {
-	background: rgba($low-color, 255, $low-color, $low-opacity);
-}
-.green:hover {
-	background: rgba($low-color, 255, $low-color, $high-opacity);
-}
-.red {
-	background: rgba(255, $low-color, $low-color, $low-opacity);
-}
-.red:hover {
-	background: rgba(255, $low-color, $low-color, $high-opacity);
-}
-.yellow {
-	background: rgba(255, 255, $low-color, $low-opacity);
-}
-.yellow:hover {
-	background: rgba(255, 255, $low-color, $high-opacity);
-}
-.purple {
-	background: rgba(255, $low-color, 255, $low-opacity);
-}
-.purple:hover {
-	background: rgba(255, $low-color, 255, $high-opacity);
-}
-.cyan {
-	background: rgba($low-color, 255, 255, $low-opacity);
-}
-.cyan:hover {
-	background: rgba($low-color, 255, 255, $high-opacity);
-}
 .skills-subsection {
 	padding: 20px;
 	border-radius: 20px;

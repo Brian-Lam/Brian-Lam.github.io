@@ -1,0 +1,49 @@
+.blue {
+  background: rgba(25, 25, 255, 0.1);
+}
+
+.blue:hover {
+  background: rgba(25, 25, 255, 0.3);
+}
+
+.green {
+  background: rgba(25, 255, 25, 0.1);
+}
+
+.green:hover {
+  background: rgba(25, 255, 25, 0.3);
+}
+
+.red {
+  background: rgba(255, 25, 25, 0.1);
+}
+
+.red:hover {
+  background: rgba(255, 25, 25, 0.3);
+}
+
+.yellow {
+  background: rgba(255, 255, 25, 0.1);
+}
+
+.yellow:hover {
+  background: rgba(255, 255, 25, 0.3);
+}
+
+.purple {
+  background: rgba(255, 25, 255, 0.1);
+}
+
+.purple:hover {
+  background: rgba(255, 25, 255, 0.3);
+}
+
+.cyan {
+  background: rgba(25, 255, 255, 0.1);
+}
+
+.cyan:hover {
+  background: rgba(25, 255, 255, 0.3);
+}
+
+/*# sourceMappingURL=hovercolors.css.map */
