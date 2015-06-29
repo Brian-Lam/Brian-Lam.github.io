@@ -51,7 +51,7 @@
 }
 
 html {
-  background: url("assets/arduino.jpg") no-repeat center center fixed;
+  background: url("assets/cafe.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -59,55 +59,41 @@ body {
   margin: 0;
 }
 
-.projects-wrapper {
+.about-wrapper {
   background: rgba(255, 255, 255, 0.85);
-  padding: 40px;
-  padding-top: 10px;
-  margin-top: 40px;
+  font-family: Arial;
+  padding: 25px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 40px;
   font-size: 1.2em;
+  line-height: 1.15;
 }
-.projects-wrapper h1 {
+.about-wrapper h1 {
   text-align: center;
   font-family: CafeBrewery;
 }
 
-.project-block {
-  padding: 1%;
+.about-right {
+  vertical-align: top;
   display: inline-block;
-}
-.project-block h4 {
-  margin-top: 2px;
-  margin-bottom: 3px;
-}
-@media only screen and (min-width: 300px) {
-  .project-block {
-    width: 98%;
-    margin: 10px 1%;
-  }
-}
-@media only screen and (min-width: 800px) {
-  .project-block {
-    width: 44%;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .project-block {
-    width: 28%;
-    margin: 20px 1%;
-    height: 150px;
-  }
+  width: 60%;
 }
 
-.project-description {
-  margin-top: 8px;
-  margin-bottom: 6px;
+.about-left {
+  vertical-align: top;
+  display: inline-block;
+  width: 30%;
 }
 
-.project-technologies {
-  color: gray;
+#profpic {
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/*# sourceMappingURL=projects.css.map */
+/*# sourceMappingURL=about.css.map */

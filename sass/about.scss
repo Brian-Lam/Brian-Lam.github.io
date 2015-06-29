@@ -1,0 +1,48 @@
+@import "fonts";
+@import "responsive";
+@import "hovercolors";
+
+html {
+	background: url("assets/cafe.jpg")  no-repeat center center fixed; 
+	background-size: cover;
+}
+
+body {
+	margin: 0;
+}
+
+.about-wrapper {
+	background: rgba(255, 255, 255, .85);
+	font-family: Arial;
+	padding: 25px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	font-size: 1.2em;
+	line-height: 1.15;
+	h1 {
+		text-align: center;
+		font-family: CafeBrewery;
+	}
+}
+
+.about-right {
+	vertical-align: top;
+	display: inline-block;
+	width: 60%;
+}
+.about-left {
+	vertical-align: top;
+	display: inline-block;
+	width: 30%;
+}
+
+#profpic {
+	width: 250px;
+	height: 250px;
+	border-radius: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
