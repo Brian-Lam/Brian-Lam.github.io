@@ -26,6 +26,13 @@
 		text-decoration: underline;
 		color: #000;
 	}
+	.white {
+		color: #DDD;
+		transition: all .3s ease;
+	}
+	.white:hover {
+		color: #FFF;
+	}
 }
 #mobile-nav {
 	top: 79px;

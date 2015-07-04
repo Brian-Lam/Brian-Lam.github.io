@@ -1,0 +1,30 @@
+@import "fonts";
+@import "responsive";
+@import "hovercolors";
+
+html {
+	background: url("assets/ssseaport.jpg")  no-repeat center center fixed; 
+	background-size: cover;
+}
+
+body {
+	margin: 0;
+}
+
+.contact-wrapper {
+	background: rgba(0, 0, 0, .85);
+	width: 100%;
+	padding: 40px;
+	color: white;
+	margin-top: 240px;
+	text-align: center;
+	font-size: 1.2em;
+	font-family: arial;
+	a {
+		color: white;
+		transition: all .3s ease;
+	}
+	a:hover {
+		color: #0F0;
+	}
+}
