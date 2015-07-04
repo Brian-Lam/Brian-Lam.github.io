@@ -77,6 +77,8 @@ body {
 .project-block {
   padding: 1%;
   display: inline-block;
+  vertical-align: top;
+  font-family: Arial;
 }
 .project-block h4 {
   margin-top: 2px;
@@ -97,8 +99,14 @@ body {
   .project-block {
     width: 28%;
     margin: 20px 1%;
-    height: 150px;
+    height: 450px;
   }
+}
+.project-block a {
+  transition: all .5s ease;
+}
+.project-block a:hover {
+  color: green;
 }
 
 .project-description {

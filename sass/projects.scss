@@ -29,6 +29,8 @@ body {
 .project-block {
 	padding: 1%;
 	display: inline-block;
+	vertical-align: top;
+	font-family: Arial;
 	h4 {
 		margin-top: 2px;
 		margin-bottom: 3px;
@@ -43,7 +45,13 @@ body {
 	@media #{$desktop} {
 		width: 28%;
 		margin: 20px 1%;
-		height: 150px;
+		height: 450px;
+	}
+	a {
+		transition: all .5s ease;
+	}
+	a:hover {
+		color: green;
 	}
 }
 .project-description {
