@@ -1,0 +1,60 @@
+@import "fonts";
+@import "responsive";
+@import "hovercolors";
+
+html {
+	// background: url("assets/cafe.jpg")  no-repeat center center fixed; 
+	background-color: black;
+	background-size: cover;
+}
+
+body {
+	margin: 0;
+}
+
+.photography-wrapper {
+	background-color: #222;
+	font-family: Arial;
+	padding: 25px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	font-size: 1.2em;
+	line-height: 1.15;
+	vertical-align: top;
+	h1 {
+		text-align: center;
+		font-family: CafeBrewery;
+		margin-bottom: 5px;
+		color: white;
+	}
+}
+
+.big-wrapper {
+	width: 55%;
+	margin: 10px;
+	display: inline-block;
+}
+
+#big-pic {
+	width: 100%;
+}
+
+.gallery {
+	vertical-align: top;
+	width: 40%;
+	margin: 10px;
+	display: inline-block;
+}
+
+.gallery-pic {
+	display: inline-block;
+	margin: 2% 8px;
+	width: 29%;
+	cursor: pointer;
+}
+
+.gallery-pic:hover {
+	border: 2px solid black;
+}
