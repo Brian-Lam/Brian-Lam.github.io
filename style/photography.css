@@ -51,6 +51,7 @@
 }
 
 html {
+  background: url("assets/ssseaport.jpg") no-repeat center center fixed;
   background-color: black;
   background-size: cover;
 }

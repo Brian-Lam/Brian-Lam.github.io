@@ -3,7 +3,7 @@
 @import "hovercolors";
 
 html {
-	background: url("assets/ssseaport.jpg")  no-repeat center center fixed; 
+	background: url("assets/saintlouis.jpg")  no-repeat center center fixed; 
 	background-size: cover;
 }
 
@@ -13,13 +13,17 @@ body {
 
 .contact-wrapper {
 	background: rgba(0, 0, 0, .85);
-	width: 100%;
-	padding: 40px;
+	width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 80px;
 	color: white;
-	margin-top: 240px;
+	margin-top: 200px;
 	text-align: center;
 	font-size: 1.2em;
 	font-family: arial;
+	border-radius: 30px;
 	a {
 		color: white;
 		transition: all .3s ease;
