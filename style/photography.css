@@ -80,9 +80,18 @@ body {
 }
 
 .big-wrapper {
-  width: 55%;
   margin: 10px;
   display: inline-block;
+}
+@media only screen and (min-width: 300px) {
+  .big-wrapper {
+    width: 98%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .big-wrapper {
+    width: 55%;
+  }
 }
 
 #big-pic {
@@ -91,17 +100,35 @@ body {
 
 .gallery {
   vertical-align: top;
-  width: 40%;
   margin: 10px;
   display: inline-block;
+}
+@media only screen and (min-width: 300px) {
+  .gallery {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .gallery {
+    width: 40%;
+  }
 }
 
 .gallery-pic {
   display: inline-block;
   margin: 2% 8px;
-  width: 29%;
   cursor: pointer;
   border: 2px solid black;
+}
+@media only screen and (min-width: 300px) {
+  .gallery-pic {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .gallery-pic {
+    width: 29%;
+  }
 }
 
 .gallery-pic:hover {
