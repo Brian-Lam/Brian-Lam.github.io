@@ -53,8 +53,9 @@ body {
 	margin: 2% 8px;
 	width: 29%;
 	cursor: pointer;
+	border: 2px solid black;
 }
 
 .gallery-pic:hover {
-	border: 2px solid black;
+	border: 2px solid white;
 }
