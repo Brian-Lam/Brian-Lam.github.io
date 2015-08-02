@@ -2,6 +2,46 @@
   font-family: CafeBrewery;
   src: url("fonts/cafe_brewery.ttf");
 }
+@font-face {
+  font-family: Josefin-BoldItalic;
+  src: url("fonts/JosefinSans-BoldItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Bold;
+  src: url("fonts/JosefinSans-Bold.ttf");
+}
+@font-face {
+  font-family: Josefin-Italic;
+  src: url("fonts/JosefinSans-Italic.ttf");
+}
+@font-face {
+  font-family: Josefin-LightItalic;
+  src: url("fonts/JosefinSans-LightItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Light;
+  src: url("fonts/JosefinSans-Light.ttf");
+}
+@font-face {
+  font-family: Josefin;
+  src: url("fonts/JosefinSans-Regular.ttf");
+}
+@font-face {
+  font-family: Josefin-SemiBoldItalic;
+  src: url("fonts/JosefinSans-SemiBoldItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-SemiBold;
+  src: url("fonts/JosefinSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: Josefin-ThinItalic;
+  src: url("fonts/JosefinSans-ThinItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Thin;
+  src: url("fonts/JosefinSans-Thin.ttf");
+}
 html {
   background: url("assets/overpass.jpg") no-repeat center center fixed;
   background-size: cover;

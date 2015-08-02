@@ -1,3 +1,4 @@
+@import "base";
 @import "fonts";
 @import "responsive";
 @import "hovercolors";
@@ -13,18 +14,14 @@ body {
 
 .about-wrapper {
 	background: rgba(255, 255, 255, .85);
-	font-family: Arial;
+	font-family: Josefin;
 	padding: 25px;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
-	font-size: 1.2em;
-	line-height: 1.15;
-	h1 {
-		text-align: center;
-		font-family: CafeBrewery;
-	}
+	font-size: 1.4em;
+	line-height: 1.25;
 }
 
 .about-right {

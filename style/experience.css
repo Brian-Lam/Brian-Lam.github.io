@@ -2,13 +2,60 @@
   font-family: CafeBrewery;
   src: url("fonts/cafe_brewery.ttf");
 }
+@font-face {
+  font-family: Josefin-BoldItalic;
+  src: url("fonts/JosefinSans-BoldItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Bold;
+  src: url("fonts/JosefinSans-Bold.ttf");
+}
+@font-face {
+  font-family: Josefin-Italic;
+  src: url("fonts/JosefinSans-Italic.ttf");
+}
+@font-face {
+  font-family: Josefin-LightItalic;
+  src: url("fonts/JosefinSans-LightItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Light;
+  src: url("fonts/JosefinSans-Light.ttf");
+}
+@font-face {
+  font-family: Josefin;
+  src: url("fonts/JosefinSans-Regular.ttf");
+}
+@font-face {
+  font-family: Josefin-SemiBoldItalic;
+  src: url("fonts/JosefinSans-SemiBoldItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-SemiBold;
+  src: url("fonts/JosefinSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: Josefin-ThinItalic;
+  src: url("fonts/JosefinSans-ThinItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Thin;
+  src: url("fonts/JosefinSans-Thin.ttf");
+}
+.page-title {
+  font-family: Josefin-SemiBold;
+  text-align: center;
+  margin: 30px 0px;
+}
+
 .page-description {
-  font-family: CafeBrewery;
+  font-family: Josefin;
   font-weight: 300;
+  font-size: 1.35em;
   width: 75%;
   margin: 20px auto;
   display: block;
-  line-height: 1.4;
+  line-height: 1.2;
   text-align: center;
 }
 
@@ -22,6 +69,46 @@ hr {
 @font-face {
   font-family: CafeBrewery;
   src: url("fonts/cafe_brewery.ttf");
+}
+@font-face {
+  font-family: Josefin-BoldItalic;
+  src: url("fonts/JosefinSans-BoldItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Bold;
+  src: url("fonts/JosefinSans-Bold.ttf");
+}
+@font-face {
+  font-family: Josefin-Italic;
+  src: url("fonts/JosefinSans-Italic.ttf");
+}
+@font-face {
+  font-family: Josefin-LightItalic;
+  src: url("fonts/JosefinSans-LightItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Light;
+  src: url("fonts/JosefinSans-Light.ttf");
+}
+@font-face {
+  font-family: Josefin;
+  src: url("fonts/JosefinSans-Regular.ttf");
+}
+@font-face {
+  font-family: Josefin-SemiBoldItalic;
+  src: url("fonts/JosefinSans-SemiBoldItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-SemiBold;
+  src: url("fonts/JosefinSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: Josefin-ThinItalic;
+  src: url("fonts/JosefinSans-ThinItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Thin;
+  src: url("fonts/JosefinSans-Thin.ttf");
 }
 .blue {
   background: rgba(25, 25, 255, 0.1);
