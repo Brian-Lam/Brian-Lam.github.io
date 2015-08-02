@@ -42,6 +42,18 @@
   font-family: Josefin-Thin;
   src: url("fonts/JosefinSans-Thin.ttf");
 }
+@font-face {
+  font-family: NewsGothic-Bold;
+  src: url("fonts/News-Gothic-MT-Bold.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Regular;
+  src: url("fonts/News-Gothic-MT-Regular.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Italic;
+  src: url("fonts/News-Gothic-MT-Italic.ttf");
+}
 #desktop-nav {
   text-align: left;
   font-size: 1.8em;

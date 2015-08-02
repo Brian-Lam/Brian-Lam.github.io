@@ -10,7 +10,6 @@ html {
 
 body {
 	margin: 0;
-	font-family: Arial;
 }
 
 .projects-wrapper {
@@ -21,11 +20,11 @@ body {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 1.2em;
 }
 
 
 .project-block {
+	font-size: 1.1em;
 	padding: 1%;
 	display: inline-block;
 	vertical-align: top;

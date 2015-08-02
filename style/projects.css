@@ -42,14 +42,31 @@
   font-family: Josefin-Thin;
   src: url("fonts/JosefinSans-Thin.ttf");
 }
+@font-face {
+  font-family: NewsGothic-Bold;
+  src: url("fonts/News-Gothic-MT-Bold.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Regular;
+  src: url("fonts/News-Gothic-MT-Regular.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Italic;
+  src: url("fonts/News-Gothic-MT-Italic.ttf");
+}
+body {
+  font-family: NewsGothic-Regular;
+}
+
 .page-title {
-  font-family: Josefin-SemiBold;
+  font-family: NewsGothic-Bold;
+  font-weight: 100;
   text-align: center;
   margin: 30px 0px;
 }
 
 .page-description {
-  font-family: Josefin;
+  font-family: NewsGothic-Regular;
   font-weight: 300;
   font-size: 1.35em;
   width: 75%;
@@ -109,6 +126,18 @@ hr {
 @font-face {
   font-family: Josefin-Thin;
   src: url("fonts/JosefinSans-Thin.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Bold;
+  src: url("fonts/News-Gothic-MT-Bold.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Regular;
+  src: url("fonts/News-Gothic-MT-Regular.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Italic;
+  src: url("fonts/News-Gothic-MT-Italic.ttf");
 }
 .blue {
   background: rgba(25, 25, 255, 0.1);
@@ -189,7 +218,6 @@ html {
 
 body {
   margin: 0;
-  font-family: Arial;
 }
 
 .projects-wrapper {
@@ -200,10 +228,10 @@ body {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.2em;
 }
 
 .project-block {
+  font-size: 1.1em;
   padding: 1%;
   display: inline-block;
   vertical-align: top;
