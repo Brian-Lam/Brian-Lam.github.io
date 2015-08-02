@@ -2,6 +2,27 @@
   font-family: CafeBrewery;
   src: url("fonts/cafe_brewery.ttf");
 }
+.page-description {
+  font-family: CafeBrewery;
+  font-weight: 300;
+  width: 75%;
+  margin: 20px auto;
+  display: block;
+  line-height: 1.4;
+  text-align: center;
+}
+
+hr {
+  width: 35%;
+  display: block;
+  margin: 30px auto;
+  color: #EEE;
+}
+
+@font-face {
+  font-family: CafeBrewery;
+  src: url("fonts/cafe_brewery.ttf");
+}
 .blue {
   background: rgba(25, 25, 255, 0.1);
 }
@@ -50,6 +71,30 @@
   background: rgba(25, 255, 255, 0.3);
 }
 
+.blue-bar {
+  border-left: rgba(25, 25, 255, 0.04) 10px solid;
+}
+
+.green-bar {
+  border-left: rgba(25, 255, 25, 0.04) 10px solid;
+}
+
+.red-bar {
+  border-left: rgba(255, 25, 25, 0.04) 10px solid;
+}
+
+.yellow-bar {
+  border-left: rgba(255, 255, 25, 0.04) 10px solid;
+}
+
+.purple-bar {
+  border-left: rgba(255, 25, 255, 0.04) 10px solid;
+}
+
+.cyan-bar {
+  border-left: rgba(25, 255, 255, 0.04) 10px solid;
+}
+
 html {
   background: url("assets/arduino.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -57,6 +102,7 @@ html {
 
 body {
   margin: 0;
+  font-family: Arial;
 }
 
 .projects-wrapper {
@@ -78,7 +124,6 @@ body {
   padding: 1%;
   display: inline-block;
   vertical-align: top;
-  font-family: Arial;
 }
 .project-block h4 {
   margin-top: 2px;

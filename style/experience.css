@@ -2,6 +2,27 @@
   font-family: CafeBrewery;
   src: url("fonts/cafe_brewery.ttf");
 }
+.page-description {
+  font-family: CafeBrewery;
+  font-weight: 300;
+  width: 75%;
+  margin: 20px auto;
+  display: block;
+  line-height: 1.4;
+  text-align: center;
+}
+
+hr {
+  width: 35%;
+  display: block;
+  margin: 30px auto;
+  color: #EEE;
+}
+
+@font-face {
+  font-family: CafeBrewery;
+  src: url("fonts/cafe_brewery.ttf");
+}
 .blue {
   background: rgba(25, 25, 255, 0.1);
 }
@@ -50,6 +71,30 @@
   background: rgba(25, 255, 255, 0.3);
 }
 
+.blue-bar {
+  border-left: rgba(25, 25, 255, 0.04) 10px solid;
+}
+
+.green-bar {
+  border-left: rgba(25, 255, 25, 0.04) 10px solid;
+}
+
+.red-bar {
+  border-left: rgba(255, 25, 25, 0.04) 10px solid;
+}
+
+.yellow-bar {
+  border-left: rgba(255, 255, 25, 0.04) 10px solid;
+}
+
+.purple-bar {
+  border-left: rgba(255, 25, 255, 0.04) 10px solid;
+}
+
+.cyan-bar {
+  border-left: rgba(25, 255, 255, 0.04) 10px solid;
+}
+
 html {
   background: url("assets/3dprint.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -67,6 +112,7 @@ h1 {
 }
 
 h2 {
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -83,45 +129,64 @@ h5 {
   width: 80%;
   display: block;
   margin: auto;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.93);
   border-radius: 10px;
 }
 
 .experience-subsection {
+  width: 98%;
+  margin: 0px auto;
   font-family: Arial;
   font-size: 1.2em;
   vertical-align: top;
-  display: inline-block;
-}
-@media only screen and (min-width: 300px) {
-  .experience-subsection {
-    width: 98%;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .experience-subsection {
-    width: 45%;
-  }
+  display: block;
 }
 
 .experience-block {
-  padding: 10px;
-  padding-top: 4px;
-  padding-left: 15px;
-  margin: 5%;
+  padding: 1%;
+  margin: 2%;
   transition: background 0.15s ease;
-  border-radius: 20px;
-  cursor: pointer;
+  border-radius: 10px;
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+}
+@media only screen and (min-width: 300px) {
+  .experience-block {
+    width: 93%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .experience-block {
+    width: 43%;
+  }
 }
 
 .skills-subsection {
-  padding: 20px;
+  width: 90%;
+  display: block;
+  margin: 10px auto;
+  padding: 10px 5%;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.6);
 }
 
+.skills-subsection-column {
+  vertical-align: top;
+  display: inline-block;
+}
+@media only screen and (min-width: 300px) {
+  .skills-subsection-column {
+    width: 98%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .skills-subsection-column {
+    width: 32%;
+  }
+}
+
 .experience-description {
-  display: none;
   margin-left: 15px;
   padding-left: 15px;
 }

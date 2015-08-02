@@ -1,0 +1,22 @@
+@font-face {
+  font-family: CafeBrewery;
+  src: url("fonts/cafe_brewery.ttf");
+}
+.page-description {
+  font-family: CafeBrewery;
+  font-weight: 300;
+  width: 75%;
+  margin: 20px auto;
+  display: block;
+  line-height: 1.4;
+  text-align: center;
+}
+
+hr {
+  width: 35%;
+  display: block;
+  margin: 30px auto;
+  color: #EEE;
+}
+
+/*# sourceMappingURL=base.css.map */

@@ -46,4 +46,28 @@
   background: rgba(25, 255, 255, 0.3);
 }
 
+.blue-bar {
+  border-left: rgba(25, 25, 255, 0.04) 10px solid;
+}
+
+.green-bar {
+  border-left: rgba(25, 255, 25, 0.04) 10px solid;
+}
+
+.red-bar {
+  border-left: rgba(255, 25, 25, 0.04) 10px solid;
+}
+
+.yellow-bar {
+  border-left: rgba(255, 255, 25, 0.04) 10px solid;
+}
+
+.purple-bar {
+  border-left: rgba(255, 25, 255, 0.04) 10px solid;
+}
+
+.cyan-bar {
+  border-left: rgba(25, 255, 255, 0.04) 10px solid;
+}
+
 /*# sourceMappingURL=hovercolors.css.map */
