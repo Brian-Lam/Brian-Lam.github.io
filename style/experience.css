@@ -2,6 +2,143 @@
   font-family: CafeBrewery;
   src: url("fonts/cafe_brewery.ttf");
 }
+@font-face {
+  font-family: Josefin-BoldItalic;
+  src: url("fonts/JosefinSans-BoldItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Bold;
+  src: url("fonts/JosefinSans-Bold.ttf");
+}
+@font-face {
+  font-family: Josefin-Italic;
+  src: url("fonts/JosefinSans-Italic.ttf");
+}
+@font-face {
+  font-family: Josefin-LightItalic;
+  src: url("fonts/JosefinSans-LightItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Light;
+  src: url("fonts/JosefinSans-Light.ttf");
+}
+@font-face {
+  font-family: Josefin;
+  src: url("fonts/JosefinSans-Regular.ttf");
+}
+@font-face {
+  font-family: Josefin-SemiBoldItalic;
+  src: url("fonts/JosefinSans-SemiBoldItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-SemiBold;
+  src: url("fonts/JosefinSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: Josefin-ThinItalic;
+  src: url("fonts/JosefinSans-ThinItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Thin;
+  src: url("fonts/JosefinSans-Thin.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Bold;
+  src: url("fonts/News-Gothic-MT-Bold.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Regular;
+  src: url("fonts/News-Gothic-MT-Regular.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Italic;
+  src: url("fonts/News-Gothic-MT-Italic.ttf");
+}
+body {
+  font-family: NewsGothic-Regular;
+}
+
+.page-title {
+  font-family: NewsGothic-Bold;
+  font-weight: 100;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.page-description {
+  font-family: NewsGothic-Regular;
+  font-weight: 300;
+  font-size: 1.35em;
+  width: 75%;
+  margin: 20px auto;
+  display: block;
+  line-height: 1.2;
+  text-align: center;
+}
+
+hr {
+  width: 35%;
+  display: block;
+  margin: 30px auto;
+  color: #EEE;
+}
+
+@font-face {
+  font-family: CafeBrewery;
+  src: url("fonts/cafe_brewery.ttf");
+}
+@font-face {
+  font-family: Josefin-BoldItalic;
+  src: url("fonts/JosefinSans-BoldItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Bold;
+  src: url("fonts/JosefinSans-Bold.ttf");
+}
+@font-face {
+  font-family: Josefin-Italic;
+  src: url("fonts/JosefinSans-Italic.ttf");
+}
+@font-face {
+  font-family: Josefin-LightItalic;
+  src: url("fonts/JosefinSans-LightItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Light;
+  src: url("fonts/JosefinSans-Light.ttf");
+}
+@font-face {
+  font-family: Josefin;
+  src: url("fonts/JosefinSans-Regular.ttf");
+}
+@font-face {
+  font-family: Josefin-SemiBoldItalic;
+  src: url("fonts/JosefinSans-SemiBoldItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-SemiBold;
+  src: url("fonts/JosefinSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: Josefin-ThinItalic;
+  src: url("fonts/JosefinSans-ThinItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Thin;
+  src: url("fonts/JosefinSans-Thin.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Bold;
+  src: url("fonts/News-Gothic-MT-Bold.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Regular;
+  src: url("fonts/News-Gothic-MT-Regular.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Italic;
+  src: url("fonts/News-Gothic-MT-Italic.ttf");
+}
 .blue {
   background: rgba(25, 25, 255, 0.1);
 }
@@ -50,6 +187,30 @@
   background: rgba(25, 255, 255, 0.3);
 }
 
+.blue-bar {
+  border-left: rgba(25, 25, 255, 0.04) 10px solid;
+}
+
+.green-bar {
+  border-left: rgba(25, 255, 25, 0.04) 10px solid;
+}
+
+.red-bar {
+  border-left: rgba(255, 25, 25, 0.04) 10px solid;
+}
+
+.yellow-bar {
+  border-left: rgba(255, 255, 25, 0.04) 10px solid;
+}
+
+.purple-bar {
+  border-left: rgba(255, 25, 255, 0.04) 10px solid;
+}
+
+.cyan-bar {
+  border-left: rgba(25, 255, 255, 0.04) 10px solid;
+}
+
 html {
   background: url("assets/3dprint.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -67,6 +228,7 @@ h1 {
 }
 
 h2 {
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -83,45 +245,63 @@ h5 {
   width: 80%;
   display: block;
   margin: auto;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.93);
   border-radius: 10px;
 }
 
 .experience-subsection {
-  font-family: Arial;
+  width: 98%;
+  margin: 0px auto;
   font-size: 1.2em;
   vertical-align: top;
-  display: inline-block;
-}
-@media only screen and (min-width: 300px) {
-  .experience-subsection {
-    width: 98%;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .experience-subsection {
-    width: 45%;
-  }
+  display: block;
 }
 
 .experience-block {
-  padding: 10px;
-  padding-top: 4px;
-  padding-left: 15px;
-  margin: 5%;
+  padding: 1%;
+  margin: 2%;
   transition: background 0.15s ease;
-  border-radius: 20px;
-  cursor: pointer;
+  border-radius: 10px;
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+}
+@media only screen and (min-width: 300px) {
+  .experience-block {
+    width: 93%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .experience-block {
+    width: 42%;
+  }
 }
 
 .skills-subsection {
-  padding: 20px;
+  width: 90%;
+  display: block;
+  margin: 10px auto;
+  padding: 10px 5%;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.6);
 }
 
+.skills-subsection-column {
+  vertical-align: top;
+  display: inline-block;
+}
+@media only screen and (min-width: 300px) {
+  .skills-subsection-column {
+    width: 98%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .skills-subsection-column {
+    width: 32%;
+  }
+}
+
 .experience-description {
-  display: none;
   margin-left: 15px;
   padding-left: 15px;
 }

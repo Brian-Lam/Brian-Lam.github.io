@@ -1,3 +1,4 @@
+@import "base.scss";
 @import "fonts";
 @import "responsive";
 @import "hovercolors";
@@ -19,18 +20,14 @@ body {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 1.2em;
-	h1 {
-		text-align: center;
-		font-family: CafeBrewery;
-	}
 }
 
+
 .project-block {
+	font-size: 1.1em;
 	padding: 1%;
 	display: inline-block;
 	vertical-align: top;
-	font-family: Arial;
 	h4 {
 		margin-top: 2px;
 		margin-bottom: 3px;

@@ -1,3 +1,4 @@
+@import "base";
 @import "fonts";
 @import "responsive";
 @import "hovercolors";
@@ -11,7 +12,9 @@ html {
 body {
 	margin: 0;
 }
-
+.page-title, .page-description {
+	color: white;
+}
 .photography-wrapper {
 	background-color: #222;
 	font-family: Arial;
@@ -23,12 +26,6 @@ body {
 	font-size: 1.2em;
 	line-height: 1.15;
 	vertical-align: top;
-	h1 {
-		text-align: center;
-		font-family: CafeBrewery;
-		margin-bottom: 5px;
-		color: white;
-	}
 }
 
 .big-wrapper {

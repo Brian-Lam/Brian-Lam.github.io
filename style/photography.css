@@ -2,6 +2,143 @@
   font-family: CafeBrewery;
   src: url("fonts/cafe_brewery.ttf");
 }
+@font-face {
+  font-family: Josefin-BoldItalic;
+  src: url("fonts/JosefinSans-BoldItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Bold;
+  src: url("fonts/JosefinSans-Bold.ttf");
+}
+@font-face {
+  font-family: Josefin-Italic;
+  src: url("fonts/JosefinSans-Italic.ttf");
+}
+@font-face {
+  font-family: Josefin-LightItalic;
+  src: url("fonts/JosefinSans-LightItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Light;
+  src: url("fonts/JosefinSans-Light.ttf");
+}
+@font-face {
+  font-family: Josefin;
+  src: url("fonts/JosefinSans-Regular.ttf");
+}
+@font-face {
+  font-family: Josefin-SemiBoldItalic;
+  src: url("fonts/JosefinSans-SemiBoldItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-SemiBold;
+  src: url("fonts/JosefinSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: Josefin-ThinItalic;
+  src: url("fonts/JosefinSans-ThinItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Thin;
+  src: url("fonts/JosefinSans-Thin.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Bold;
+  src: url("fonts/News-Gothic-MT-Bold.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Regular;
+  src: url("fonts/News-Gothic-MT-Regular.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Italic;
+  src: url("fonts/News-Gothic-MT-Italic.ttf");
+}
+body {
+  font-family: NewsGothic-Regular;
+}
+
+.page-title {
+  font-family: NewsGothic-Bold;
+  font-weight: 100;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.page-description {
+  font-family: NewsGothic-Regular;
+  font-weight: 300;
+  font-size: 1.35em;
+  width: 75%;
+  margin: 20px auto;
+  display: block;
+  line-height: 1.2;
+  text-align: center;
+}
+
+hr {
+  width: 35%;
+  display: block;
+  margin: 30px auto;
+  color: #EEE;
+}
+
+@font-face {
+  font-family: CafeBrewery;
+  src: url("fonts/cafe_brewery.ttf");
+}
+@font-face {
+  font-family: Josefin-BoldItalic;
+  src: url("fonts/JosefinSans-BoldItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Bold;
+  src: url("fonts/JosefinSans-Bold.ttf");
+}
+@font-face {
+  font-family: Josefin-Italic;
+  src: url("fonts/JosefinSans-Italic.ttf");
+}
+@font-face {
+  font-family: Josefin-LightItalic;
+  src: url("fonts/JosefinSans-LightItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Light;
+  src: url("fonts/JosefinSans-Light.ttf");
+}
+@font-face {
+  font-family: Josefin;
+  src: url("fonts/JosefinSans-Regular.ttf");
+}
+@font-face {
+  font-family: Josefin-SemiBoldItalic;
+  src: url("fonts/JosefinSans-SemiBoldItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-SemiBold;
+  src: url("fonts/JosefinSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: Josefin-ThinItalic;
+  src: url("fonts/JosefinSans-ThinItalic.ttf");
+}
+@font-face {
+  font-family: Josefin-Thin;
+  src: url("fonts/JosefinSans-Thin.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Bold;
+  src: url("fonts/News-Gothic-MT-Bold.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Regular;
+  src: url("fonts/News-Gothic-MT-Regular.ttf");
+}
+@font-face {
+  font-family: NewsGothic-Italic;
+  src: url("fonts/News-Gothic-MT-Italic.ttf");
+}
 .blue {
   background: rgba(25, 25, 255, 0.1);
 }
@@ -50,6 +187,30 @@
   background: rgba(25, 255, 255, 0.3);
 }
 
+.blue-bar {
+  border-left: rgba(25, 25, 255, 0.04) 10px solid;
+}
+
+.green-bar {
+  border-left: rgba(25, 255, 25, 0.04) 10px solid;
+}
+
+.red-bar {
+  border-left: rgba(255, 25, 25, 0.04) 10px solid;
+}
+
+.yellow-bar {
+  border-left: rgba(255, 255, 25, 0.04) 10px solid;
+}
+
+.purple-bar {
+  border-left: rgba(255, 25, 255, 0.04) 10px solid;
+}
+
+.cyan-bar {
+  border-left: rgba(25, 255, 255, 0.04) 10px solid;
+}
+
 html {
   background: url("assets/ssseaport.jpg") no-repeat center center fixed;
   background-color: black;
@@ -58,6 +219,10 @@ html {
 
 body {
   margin: 0;
+}
+
+.page-title, .page-description {
+  color: white;
 }
 
 .photography-wrapper {
@@ -71,12 +236,6 @@ body {
   font-size: 1.2em;
   line-height: 1.15;
   vertical-align: top;
-}
-.photography-wrapper h1 {
-  text-align: center;
-  font-family: CafeBrewery;
-  margin-bottom: 5px;
-  color: white;
 }
 
 .big-wrapper {

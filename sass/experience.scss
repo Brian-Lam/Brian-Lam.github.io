@@ -1,3 +1,4 @@
+@import "base.scss";
 @import "fonts";
 @import "responsive";
 @import "hovercolors";
@@ -16,6 +17,7 @@ h1 {
 	font-family: CafeBrewery;
 }
 h2{
+	margin-top: 40px;
 	text-align: center;
 }
 h4 {
@@ -29,38 +31,51 @@ h5 {
 	width: 80%;
 	display: block;
 	margin: auto;
-	background: rgba(255, 255, 255, .85);
+	background: rgba(255, 255, 255, .93);
 	border-radius: 10px;
 }
 .experience-subsection {
-	font-family: Arial;
+	width: 98%;
+	margin: 0px auto;
 	font-size: 1.2em;
 	vertical-align: top;
+	display: block;
+}
+.experience-block {
+	@media #{$phone} {
+		width: 93%;
+	}
+	@media #{$desktop} {
+		width: 42%;
+	}	
+	padding: 1%;
+	margin: 2%;
+	transition: background 0.15s ease;
+	border-radius: 10px;
+	background-color: white;
 	display: inline-block;
+	vertical-align: top;
+}
+
+.skills-subsection {
+	width: 90%;;
+	display: block;
+	margin: 10px auto;
+	padding: 10px 5%;
+	border-radius: 20px;
+	background: rgba(255, 255, 255, .6);
+}
+.skills-subsection-column {
+	vertical-align: top;
 	@media #{$phone} {
 		width: 98%;
 	}
 	@media #{$desktop} {
-		width: 45%;
-	}
-}
-.experience-block {
-	padding: 10px;
-	padding-top: 4px;
-	padding-left: 15px;
-	margin: 5%;
-	transition: background 0.15s ease;
-	border-radius: 20px;
-	cursor: pointer;
-}
-
-.skills-subsection {
-	padding: 20px;
-	border-radius: 20px;
-	background: rgba(255, 255, 255, .6);
+		width: 32%;
+	}	
+	display: inline-block;
 }
 .experience-description {
-	display: none;
 	margin-left: 15px;
 	padding-left: 15px;
 }
