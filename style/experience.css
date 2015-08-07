@@ -144,7 +144,7 @@ hr {
 }
 
 .blue:hover {
-  background: rgba(25, 25, 255, 0.3);
+  background: rgba(25, 25, 255, 0.6);
 }
 
 .green {
@@ -152,7 +152,7 @@ hr {
 }
 
 .green:hover {
-  background: rgba(25, 255, 25, 0.3);
+  background: rgba(25, 255, 25, 0.6);
 }
 
 .red {
@@ -160,7 +160,7 @@ hr {
 }
 
 .red:hover {
-  background: rgba(255, 25, 25, 0.3);
+  background: rgba(255, 25, 25, 0.6);
 }
 
 .yellow {
@@ -168,7 +168,7 @@ hr {
 }
 
 .yellow:hover {
-  background: rgba(255, 255, 25, 0.3);
+  background: rgba(255, 255, 25, 0.6);
 }
 
 .purple {
@@ -176,7 +176,7 @@ hr {
 }
 
 .purple:hover {
-  background: rgba(255, 25, 255, 0.3);
+  background: rgba(255, 25, 255, 0.6);
 }
 
 .cyan {
@@ -184,31 +184,55 @@ hr {
 }
 
 .cyan:hover {
-  background: rgba(25, 255, 255, 0.3);
+  background: rgba(25, 255, 255, 0.6);
 }
 
 .blue-bar {
-  border-left: rgba(25, 25, 255, 0.04) 10px solid;
+  border-left: rgba(25, 25, 255, 0.2) 10px solid;
 }
 
 .green-bar {
-  border-left: rgba(25, 255, 25, 0.04) 10px solid;
+  border-left: rgba(25, 255, 25, 0.2) 10px solid;
 }
 
 .red-bar {
-  border-left: rgba(255, 25, 25, 0.04) 10px solid;
+  border-left: rgba(255, 25, 25, 0.2) 10px solid;
 }
 
 .yellow-bar {
-  border-left: rgba(255, 255, 25, 0.04) 10px solid;
+  border-left: rgba(255, 255, 25, 0.2) 10px solid;
 }
 
 .purple-bar {
-  border-left: rgba(255, 25, 255, 0.04) 10px solid;
+  border-left: rgba(255, 25, 255, 0.2) 10px solid;
 }
 
 .cyan-bar {
-  border-left: rgba(25, 255, 255, 0.04) 10px solid;
+  border-left: rgba(25, 255, 255, 0.2) 10px solid;
+}
+
+.blue-bar-dark-narrow {
+  border-left: rgba(25, 25, 125, 0.2) 6px solid;
+}
+
+.green-bar-dark-narrow {
+  border-left: rgba(25, 125, 25, 0.2) 6px solid;
+}
+
+.red-bar-dark-narrow {
+  border-left: rgba(125, 25, 25, 0.2) 6px solid;
+}
+
+.yellow-bar-dark-narrow {
+  border-left: rgba(125, 125, 25, 0.2) 6px solid;
+}
+
+.purple-bar-dark-narrow {
+  border-left: rgba(125, 25, 125, 0.2) 6px solid;
+}
+
+.cyan-bar-dark-narrow {
+  border-left: rgba(25, 125, 125, 0.2) 6px solid;
 }
 
 html {
@@ -245,7 +269,7 @@ h5 {
   width: 80%;
   display: block;
   margin: auto;
-  background: rgba(255, 255, 255, 0.93);
+  background: white;
   border-radius: 10px;
 }
 
@@ -261,7 +285,7 @@ h5 {
   padding: 1%;
   margin: 2%;
   transition: background 0.15s ease;
-  border-radius: 10px;
+  border-radius: 6px;
   background-color: white;
   display: inline-block;
   vertical-align: top;
@@ -310,6 +334,10 @@ h5 {
   margin-top: 5px;
   margin-bottom: 5px;
   color: #333;
+}
+
+.experience-name {
+  margin: 0px;
 }
 
 /*# sourceMappingURL=experience.css.map */

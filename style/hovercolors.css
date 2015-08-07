@@ -3,7 +3,7 @@
 }
 
 .blue:hover {
-  background: rgba(25, 25, 255, 0.3);
+  background: rgba(25, 25, 255, 0.6);
 }
 
 .green {
@@ -11,7 +11,7 @@
 }
 
 .green:hover {
-  background: rgba(25, 255, 25, 0.3);
+  background: rgba(25, 255, 25, 0.6);
 }
 
 .red {
@@ -19,7 +19,7 @@
 }
 
 .red:hover {
-  background: rgba(255, 25, 25, 0.3);
+  background: rgba(255, 25, 25, 0.6);
 }
 
 .yellow {
@@ -27,7 +27,7 @@
 }
 
 .yellow:hover {
-  background: rgba(255, 255, 25, 0.3);
+  background: rgba(255, 255, 25, 0.6);
 }
 
 .purple {
@@ -35,7 +35,7 @@
 }
 
 .purple:hover {
-  background: rgba(255, 25, 255, 0.3);
+  background: rgba(255, 25, 255, 0.6);
 }
 
 .cyan {
@@ -43,31 +43,55 @@
 }
 
 .cyan:hover {
-  background: rgba(25, 255, 255, 0.3);
+  background: rgba(25, 255, 255, 0.6);
 }
 
 .blue-bar {
-  border-left: rgba(25, 25, 255, 0.04) 10px solid;
+  border-left: rgba(25, 25, 255, 0.2) 10px solid;
 }
 
 .green-bar {
-  border-left: rgba(25, 255, 25, 0.04) 10px solid;
+  border-left: rgba(25, 255, 25, 0.2) 10px solid;
 }
 
 .red-bar {
-  border-left: rgba(255, 25, 25, 0.04) 10px solid;
+  border-left: rgba(255, 25, 25, 0.2) 10px solid;
 }
 
 .yellow-bar {
-  border-left: rgba(255, 255, 25, 0.04) 10px solid;
+  border-left: rgba(255, 255, 25, 0.2) 10px solid;
 }
 
 .purple-bar {
-  border-left: rgba(255, 25, 255, 0.04) 10px solid;
+  border-left: rgba(255, 25, 255, 0.2) 10px solid;
 }
 
 .cyan-bar {
-  border-left: rgba(25, 255, 255, 0.04) 10px solid;
+  border-left: rgba(25, 255, 255, 0.2) 10px solid;
+}
+
+.blue-bar-dark-narrow {
+  border-left: rgba(25, 25, 125, 0.2) 6px solid;
+}
+
+.green-bar-dark-narrow {
+  border-left: rgba(25, 125, 25, 0.2) 6px solid;
+}
+
+.red-bar-dark-narrow {
+  border-left: rgba(125, 25, 25, 0.2) 6px solid;
+}
+
+.yellow-bar-dark-narrow {
+  border-left: rgba(125, 125, 25, 0.2) 6px solid;
+}
+
+.purple-bar-dark-narrow {
+  border-left: rgba(125, 25, 125, 0.2) 6px solid;
+}
+
+.cyan-bar-dark-narrow {
+  border-left: rgba(25, 125, 125, 0.2) 6px solid;
 }
 
 /*# sourceMappingURL=hovercolors.css.map */

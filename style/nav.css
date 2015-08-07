@@ -80,6 +80,10 @@
 #desktop-nav .nav-link .active-link {
   color: #000;
 }
+#desktop-nav .active-link {
+  text-decoration: underline;
+  font-weight: 900;
+}
 #desktop-nav .nav-link:hover {
   text-decoration: underline;
   color: #000;

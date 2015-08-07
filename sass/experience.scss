@@ -31,7 +31,7 @@ h5 {
 	width: 80%;
 	display: block;
 	margin: auto;
-	background: rgba(255, 255, 255, .93);
+	background: white;
 	border-radius: 10px;
 }
 .experience-subsection {
@@ -51,7 +51,7 @@ h5 {
 	padding: 1%;
 	margin: 2%;
 	transition: background 0.15s ease;
-	border-radius: 10px;
+	border-radius: 6px;
 	background-color: white;
 	display: inline-block;
 	vertical-align: top;
@@ -83,4 +83,7 @@ h5 {
 	margin-top: 5px;
 	margin-bottom: 5px;
 	color: #333;
+}
+.experience-name {
+	margin: 0px;
 }

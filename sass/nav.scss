@@ -22,6 +22,10 @@
 	.nav-link .active-link {
 		color: #000;
 	}
+	.active-link {
+		text-decoration: underline;
+		font-weight: 900;
+	}
 	.nav-link:hover {
 		text-decoration: underline;
 		color: #000;

@@ -1,8 +1,10 @@
-$super-low-opacity: .04;
+$medium-opacity: .2;
 $low-opacity: .1;
-$high-opacity: .3;
+$high-opacity: .6;
 $super-high-opacity: .8;
 $low-color: 25;
+$thick-border: 10px;
+$med-border: 6px;
 
 .blue {
 	background: rgba($low-color, $low-color, 255, $low-opacity);
@@ -43,20 +45,40 @@ $low-color: 25;
 
 
 .blue-bar {
-	border-left: rgba($low-color, $low-color, 255, $super-low-opacity) 10px solid;
+	border-left: rgba($low-color, $low-color, 255, $medium-opacity) 10px solid;
 }
 .green-bar {
-	border-left: rgba($low-color, 255, $low-color, $super-low-opacity) 10px solid;
+	border-left: rgba($low-color, 255, $low-color, $medium-opacity) 10px solid;
 }
 .red-bar {
-	border-left: rgba(255, $low-color, $low-color, $super-low-opacity) 10px solid;
+	border-left: rgba(255, $low-color, $low-color, $medium-opacity) 10px solid;
 }
 .yellow-bar {
-	border-left: rgba(255, 255, $low-color, $super-low-opacity) 10px solid;
+	border-left: rgba(255, 255, $low-color, $medium-opacity) 10px solid;
 }
 .purple-bar {
-	border-left: rgba(255, $low-color, 255, $super-low-opacity) 10px solid;
+	border-left: rgba(255, $low-color, 255, $medium-opacity) 10px solid;
 }
 .cyan-bar {
-	border-left: rgba($low-color, 255, 255, $super-low-opacity) 10px solid;
+	border-left: rgba($low-color, 255, 255, $medium-opacity) 10px solid;
+}
+
+
+.blue-bar-dark-narrow {
+	border-left: rgba($low-color, $low-color, 125, $medium-opacity) $med-border solid;
+}
+.green-bar-dark-narrow {
+	border-left: rgba($low-color, 125, $low-color, $medium-opacity) $med-border solid;
+}
+.red-bar-dark-narrow {
+	border-left: rgba(125, $low-color, $low-color, $medium-opacity) $med-border solid;
+}
+.yellow-bar-dark-narrow {
+	border-left: rgba(125, 125, $low-color, $medium-opacity) $med-border solid;
+}
+.purple-bar-dark-narrow {
+	border-left: rgba(125, $low-color, 125, $medium-opacity) $med-border solid;
+}
+.cyan-bar-dark-narrow {
+	border-left: rgba($low-color, 125, 125, $medium-opacity) $med-border solid;
 }
