@@ -2,48 +2,24 @@
   background: rgba(25, 25, 255, 0.1);
 }
 
-.blue:hover {
-  background: rgba(25, 25, 255, 0.6);
-}
-
 .green {
   background: rgba(25, 255, 25, 0.1);
-}
-
-.green:hover {
-  background: rgba(25, 255, 25, 0.6);
 }
 
 .red {
   background: rgba(255, 25, 25, 0.1);
 }
 
-.red:hover {
-  background: rgba(255, 25, 25, 0.6);
-}
-
 .yellow {
   background: rgba(255, 255, 25, 0.1);
-}
-
-.yellow:hover {
-  background: rgba(255, 255, 25, 0.6);
 }
 
 .purple {
   background: rgba(255, 25, 255, 0.1);
 }
 
-.purple:hover {
-  background: rgba(255, 25, 255, 0.6);
-}
-
 .cyan {
   background: rgba(25, 255, 255, 0.1);
-}
-
-.cyan:hover {
-  background: rgba(25, 255, 255, 0.6);
 }
 
 .blue-bar {
