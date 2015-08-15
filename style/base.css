@@ -64,6 +64,9 @@ body {
   text-align: center;
   margin: 30px 0px;
 }
+.page-title .page-title {
+  font-size: 1.4em;
+}
 
 .page-description {
   font-family: NewsGothic-Regular;
