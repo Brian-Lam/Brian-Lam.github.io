@@ -118,14 +118,14 @@
 }
 
 .mobile-menu-click {
-  font-family: CafeBrewery;
+  font-family: Quicksand;
   cursor: pointer;
   display: block;
   background-color: #444;
   color: white;
   text-align: center;
   padding: 20px;
-  font-size: 2em;
+  font-size: 1.8em;
   text-decoration: none;
   font-weight: bold;
 }
