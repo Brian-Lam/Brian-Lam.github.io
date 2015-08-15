@@ -83,6 +83,19 @@ body {
   text-align: center;
 }
 
+.content-wrapper {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 90%;
+}
+
 hr {
   width: 35%;
   display: block;
@@ -235,16 +248,26 @@ body {
 
 .contact-wrapper {
   background: rgba(0, 0, 0, 0.85);
-  width: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 80px;
   color: white;
   margin-top: 200px;
   text-align: center;
   font-size: 1.2em;
   border-radius: 30px;
+}
+@media only screen and (min-width: 300px) {
+  .contact-wrapper {
+    width: 70%;
+    padding: 5%;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .contact-wrapper {
+    width: 40%;
+    padding: 80px;
+  }
 }
 .contact-wrapper a {
   color: white;

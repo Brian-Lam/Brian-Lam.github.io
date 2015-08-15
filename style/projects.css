@@ -83,6 +83,19 @@ body {
   text-align: center;
 }
 
+.content-wrapper {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 90%;
+}
+
 hr {
   width: 35%;
   display: block;
@@ -235,17 +248,10 @@ body {
 
 .projects-wrapper {
   background: rgba(255, 255, 255, 0.85);
-  padding: 40px;
-  padding-top: 10px;
-  margin-top: 40px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .project-block {
   font-size: 1.1em;
-  padding: 1%;
   display: inline-block;
   vertical-align: top;
 }
@@ -255,18 +261,20 @@ body {
 }
 @media only screen and (min-width: 300px) {
   .project-block {
-    width: 98%;
+    width: 93%;
+    padding: 3%;
     margin: 10px 1%;
   }
 }
 @media only screen and (min-width: 800px) {
   .project-block {
-    width: 44%;
+    width: 42%;
   }
 }
 @media only screen and (min-width: 1200px) {
   .project-block {
-    width: 28%;
+    width: 27%;
+    padding: 2%;
     margin: 20px 1%;
     height: 450px;
   }

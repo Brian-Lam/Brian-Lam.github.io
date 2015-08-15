@@ -83,6 +83,19 @@ body {
   text-align: center;
 }
 
+.content-wrapper {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 90%;
+}
+
 hr {
   width: 35%;
   display: block;
@@ -241,11 +254,8 @@ body {
 .photography-wrapper {
   background-color: #222;
   font-family: Arial;
-  padding: 25px;
-  width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
   font-size: 1.2em;
   line-height: 1.15;
   vertical-align: top;

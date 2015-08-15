@@ -71,7 +71,6 @@ body {
 
 #name-block {
   text-align: center;
-  font-size: 2.5em;
   position: relative;
   font-family: Quicksand;
 }
@@ -80,6 +79,12 @@ body {
     left: 0px;
     top: 100px;
     width: 100%;
+    font-size: 1.5em;
+  }
+}
+@media only screen and (min-width: 800px) {
+  #name-block {
+    font-size: 2.5em;
   }
 }
 @media only screen and (min-width: 1200px) {

@@ -83,6 +83,19 @@ body {
   text-align: center;
 }
 
+.content-wrapper {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 90%;
+}
+
 hr {
   width: 35%;
   display: block;
@@ -236,11 +249,6 @@ body {
 .about-wrapper {
   background: rgba(255, 255, 255, 0.85);
   font-family: NewsGothic-Regular;
-  padding: 25px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
   font-size: 1.2em;
   line-height: 1.25;
 }
@@ -248,13 +256,31 @@ body {
 .about-right {
   vertical-align: top;
   display: inline-block;
-  width: 60%;
+}
+@media only screen and (min-width: 300px) {
+  .about-right {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .about-right {
+    width: 60%;
+  }
 }
 
 .about-left {
   vertical-align: top;
   display: inline-block;
-  width: 30%;
+}
+@media only screen and (min-width: 300px) {
+  .about-left {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .about-left {
+    width: 30%;
+  }
 }
 
 #profpic {

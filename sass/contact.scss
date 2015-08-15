@@ -14,11 +14,17 @@ body {
 
 .contact-wrapper {
 	background: rgba(0, 0, 0, .85);
-	width: 400px;
+	@media #{$phone} {
+		width: 70%;
+		padding: 5%;
+	}
+	@media #{$tablet} {
+		width: 40%;
+		padding: 80px;
+	}
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 80px;
 	color: white;
 	margin-top: 200px;
 	text-align: center;
