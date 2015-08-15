@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.brianlam.us/</loc>
+  <lastmod>2015-08-15T18:44:25+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.brianlam.us/experience.html</loc>
+  <lastmod>2015-08-15T17:40:31+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.brianlam.us/projects.html</loc>
+  <lastmod>2015-08-15T17:48:44+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.brianlam.us/photography.html</loc>
+  <lastmod>2015-08-15T17:40:32+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.brianlam.us/about.html</loc>
+  <lastmod>2015-08-15T17:40:32+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.brianlam.us/contact.html</loc>
+  <lastmod>2015-08-15T17:48:44+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>
