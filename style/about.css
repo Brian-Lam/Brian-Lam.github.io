@@ -61,11 +61,9 @@ body {
 .page-title {
   font-family: NewsGothic-Bold;
   font-weight: 100;
+  font-size: 1.4em;
   text-align: center;
   margin: 30px 0px;
-}
-.page-title .page-title {
-  font-size: 1.4em;
 }
 
 .page-description {
@@ -247,21 +245,16 @@ body {
   margin: 0;
 }
 
-.page-title {
-  font-size: 1.4em;
-}
-
 .about-wrapper {
   background: rgba(255, 255, 255, 0.85);
-  font-family: Josefin;
+  font-family: NewsGothic-Regular;
   padding: 25px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  font-size: 1.4em;
+  font-size: 1.2em;
   line-height: 1.25;
-  font-weight: 600;
 }
 
 .about-right {
