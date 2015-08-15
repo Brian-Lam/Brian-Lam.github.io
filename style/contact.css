@@ -264,6 +264,9 @@ body {
 .contact-wrapper a:hover {
   color: #0F0;
 }
+.contact-wrapper-paragraph {
+  line-height: 1.6;
+}
 
 h1 {
   margin: 5px;
