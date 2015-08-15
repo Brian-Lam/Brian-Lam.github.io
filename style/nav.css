@@ -54,10 +54,16 @@
   font-family: NewsGothic-Italic;
   src: url("fonts/News-Gothic-MT-Italic.ttf");
 }
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Quicksand Regular"), local("Quicksand-Regular"), url(http://fonts.gstatic.com/s/quicksand/v5/sKd0EMYPAh5PYCRKSryvW1tXRa8TVwTICgirnJhmVJw.woff2) format("woff2"), url(http://fonts.gstatic.com/s/quicksand/v5/sKd0EMYPAh5PYCRKSryvWz8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
+}
 #desktop-nav {
   text-align: left;
   font-size: 1.8em;
-  font-family: CafeBrewery;
+  font-family: Quicksand;
   margin-top: 40px;
   margin-left: 20px;
 }
@@ -72,7 +78,7 @@
   }
 }
 #desktop-nav .nav-link {
-  padding: 30px;
+  padding: 25px;
   color: #444;
   text-decoration: none;
   font-weight: bold;
